@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tbg.pavlya.lol.fragmentstest.com.tbg.pavlya.lol.fragmentstest.fragments.LeaguesFragment">
+
+    <TextView
+        android:id="@+id/tv_main_fragment_leagues"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/leagues_fragment"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_data"
+        android:id="@+id/btn_load_data_leagues"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear_data"
+        android:id="@+id/btn_clear_data_leagues"
+        android:layout_below="@+id/btn_load_data_leagues"
+        />
+
+</RelativeLayout>
